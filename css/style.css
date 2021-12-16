@@ -34,8 +34,7 @@ body{
 	width: 100%;
 	max-width: 1226px;
 	margin: 0 auto;
-	padding: 0 15px 0 15px;
-	padding-top: 105px;
+	padding: 105px 15px 0 15px;
 }
 .header{
 	background-color: #111111;
@@ -85,7 +84,6 @@ margin-bottom: 225px;
 	display: flex;
 	justify-content: space-between;
 }
-
 .about__info{
 	width: 100%;
 	max-width: 410px;
@@ -117,7 +115,7 @@ margin-bottom: 225px;
 font-weight: 800;  
 }
 .about__info-category p{
-	background: url(../img/about-info-img.png) left no-repeat;
+	background: url(../img/about-info-img.png) 1px 5px no-repeat;
 	padding-left: 21px;
 }
 .about__img{
@@ -197,11 +195,11 @@ padding-top: 12px;
 .services__cards {
 	display: flex;
 	justify-content: space-between;
+  padding-top: 100px; 
 }
 .services__card {
 	width: 100%;
 	max-width: 250px;
-	padding-top: 100px;
 	text-align: center;
 }
 .services__card-title {
@@ -214,6 +212,8 @@ padding-top: 12px;
 .services__card-subtitle {
 	padding-top: 20px;
 	padding-bottom: 100px;
+	max-width: 235px;
+	width: 100%;
 }
 
 .clients{
@@ -370,15 +370,18 @@ padding-top: 25px;
 margin-top: 100px;
 	background-color: #222222;
 }
+.footer__icons a{
+	padding-right: 8px;
+}
 
 
 /* 992px-1200px */
 @media screen and (max-width: 1200px) {
 	.container{
-		width: 960px;
+	margin: 0 auto;
 	}
 	.header__logo{
-		margin-right: 30px;
+		margin-right:8px;
 	}
 	.dnone {
 		display: none;
@@ -393,6 +396,9 @@ margin-top: 100px;
 		display: block;
 		flex-direction: column;
 	 }
+	 .clients__img img{
+		 padding-right: 30px;
+	 }
 }
 /* 768px-992px */
 @media screen and (max-width: 991px) {
@@ -405,6 +411,7 @@ margin-top: 100px;
 	.about{
 flex-direction: column;
 max-width: 500px;
+margin: 0 auto;
 	}
 	.about__info{
 		max-width: 430px;
@@ -431,8 +438,8 @@ max-width: 500px;
 	text-align: center;
 	margin: 0 auto;
 }
-.clients__img img{
-	padding-right: 10px;
+.header__nav{
+	text-align: center;
 }
 }
 /* 576px-768px */
@@ -447,7 +454,12 @@ max-width: 500px;
 		width: 110%;
 	}
 	.clients__img img{
-		padding: 20px 30px 0 0;
+		padding: 20px 20px 0 0;
+		margin: 0 auto;
+	}
+	.our_work_icon img{
+	margin: 0 auto;
+	padding-bottom: 30px;
 	}
 }
 /* 320-576px */
@@ -471,6 +483,6 @@ max-width: 500px;
 	font-size: 16px;
 }
 .clients__img img{
-	padding-top: 30px;
+padding: 30px 0 0 20px;
 }
 }
