@@ -399,6 +399,19 @@ margin-top: 100px;
 .footer__icons a{
 	padding-right: 8px;
 }
+.footer__icons img:hover{
+	background-color: #9f6923;
+	border-radius: 50%;
+}
+.contact__btn:hover{
+	transition-property: width;
+	width: auto;
+}
+.contact__btn button:hover{
+color: yellow;
+background-color: rgb(252, 139, 19);
+width: 150px;
+}
 
 
 /* 992px-1200px */
