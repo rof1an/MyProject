@@ -1,1 +1,1 @@
-https://rof1an.github.io/MyProject/
+https://rof1an.github.io/Company/
